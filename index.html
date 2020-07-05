@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Find Your Friends Admit Card ID - AI</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="container">
+        <div class="conside">
+            <img src="logo.png" class="logo">
+        </div>
+        <form required>
+            <div class="heading">Admit Card ID Finder</div>
+            <input type="text" placeholder="Enter Name *" class="box" name="myname" required>
+            <input type="text" placeholder="Enter Mother Name *" class="box" name="mname" required>
+            <input type="text" placeholder="Enter Board Roll Number *" class="box" name="roll" required>
+            <input type="text" placeholder="Enter School Number (Code) : Ex - 15465 *" class="box" name="school" required>
+            <input type="text" placeholder="Enter Center Code *" class="box" name="center" required>
+            <button id="btn" onClick="addData(myname.value, mname.value, roll.value, school.value, center.value)">Find Admit ID</button>
+            <p class="pp">See Below...</p>
+        </form>
+
+        <div class="output">
+        Admit Card ID : 
+            <input type="text" value="" id="myInput" >
+            <div class="tooltip">
+            <button onclick="myFunction()" onmouseout="outFunc()">
+            <span class="tooltiptext" id="myTooltip">Copy to clipboard</span>
+            COPY
+            </button>
+            </div>
+        </div>
+
+        <div class="copy">2020 &copy Admit Card ID Finder</div>
+    </div>
+
+<script src="index.js"></script>
+
+</body>
+</html>

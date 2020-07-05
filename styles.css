@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;500;600;700&display=swap');
+html, body{
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+    background: url("sign_bg.jpg");
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+#container{
+    max-width: 470px;
+    background-color: #fff;
+    padding: 40px;
+    margin: auto;
+    border-radius: 7px;
+    margin-top: 15vh;
+    box-shadow: 0 0 25px 0;
+    margin-bottom: 50px;
+}
+.conside{text-align: center;}
+.logo{width:150px;}
+.heading{
+    font-weight: 600;
+    text-align: center;
+    font-size: 32px;
+    color: #484040;
+    margin-top: 18px;
+}
+.box{
+    display: block;
+    width: 94%;
+    outline: none;
+    padding: 10px 3%;
+    margin-top: 31px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.3);
+}
+#btn{
+    width:100%;
+    padding: 10px 3%;
+    outline: none;
+    margin-top: 31px;
+    border-radius: 8px;
+    font-size: 15px;
+    border: none;
+    box-shadow: 0 0 6px 0 rgba(0,0,0,0.3);
+    background: linear-gradient(to right, #fb3d8d, #ff3f55);
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Raleway', sans-serif;
+    letter-spacing: 0.5px;
+    font-weight: 500;
+}
+.copy{
+    color: #aba2a2;
+    text-align: center;
+    margin-top: 30px;
+}
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 140px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    position: absolute;
+    z-index: 1;
+    bottom: 150%;
+    left: 50%;
+    margin-left: -75px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+.tooltip .tooltiptext::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+    opacity: 1;
+}
+.output{
+    display: none;
+    margin-top: 50px;
+    text-align: center;
+}
+#myInput{
+    color: #635959;
+    padding: 3px;
+    font-size: 18px;
+    width: 110px;
+    outline: none;
+    border: none;
+}
+.tooltip button {
+    width: 100px;
+    padding: 9px;
+    background: linear-gradient(to right, #fb3d8d, #ff3f55);
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    font-family: 'Raleway', sans-serif;
+    box-shadow: 0 0 12px 0 rgba(0,0,0,0.4);
+}
+.pp{
+    color:gray;
+    text-align: center;
+    display: none;
+}
+.copy a{
+    color: #5aacff;
+    letter-spacing: 0.7px;
+    font-weight: 600;
+}
+
+@media only screen and (max-width: 600px){
+    #container{
+        max-width: 470px;
+        background-color: #fff;
+        padding: 20px;
+        margin-left: 35px;
+        margin-right: 35px;
+        border-radius: 7px;
+        margin-top: 10vh;
+        box-shadow: 0 0 25px 0;
+        margin-bottom: 50px;
+    }
+    .logo{width:110px;}
+    .tooltip button {
+        margin-top:8px;
+    }
+}
