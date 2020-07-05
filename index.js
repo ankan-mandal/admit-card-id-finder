@@ -1,7 +1,7 @@
 function addData(myname, mname, roll, school, center){
     let newname = myname.substring(0,1);
     let newmname = mname.substring(0,1);
-    let newroll = roll.substring(4,6)
+    let newroll = roll.substring(5,7)
     let newschool = school.substring(0,2);
     let newcenter = center.substring(2,5);
     let fullNumber = newname + newmname + newroll + newschool + newcenter;
