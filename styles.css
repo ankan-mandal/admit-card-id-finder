@@ -129,6 +129,14 @@ html, body{
 }
 
 @media only screen and (max-width: 600px){
+    html, body{
+        font-family: 'Raleway', sans-serif;
+        margin: 0;
+        background: url(sign_bg.jpg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
     #container{
         max-width: 470px;
         background-color: #fff;
