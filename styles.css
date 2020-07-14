@@ -139,6 +139,18 @@ html, body{
     padding-bottom: 15px;
     text-shadow: 4px 2px 13px black;
 }
+.donatee{
+	text-align: center;
+}
+.donate{
+    margin: auto;
+    width: 345px;
+    text-align: center;
+    border: 3px solid #000;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
 
 @media only screen and (max-width: 750px){
     html, body{
