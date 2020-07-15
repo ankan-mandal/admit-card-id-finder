@@ -9,6 +9,20 @@ html, body{
     background-size: cover;
     background-attachment: fixed;
 }
+.marquee{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 600;
+    margin-top: 16px;
+    text-shadow: 2px 3px 3px black;
+
+}
+.marquee a{ 
+    color: #00f5de;
+    font-size: 24px;
+    text-shadow: none;
+}
 #container{
     max-width: 470px;
     background-color: #fff;
@@ -139,7 +153,7 @@ html, body{
     padding-bottom: 15px;
     text-shadow: 4px 2px 13px black;
 }
-.donatee{
+#donatee{
 	text-align: center;
 }
 .donate{
