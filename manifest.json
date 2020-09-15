@@ -7,7 +7,7 @@
     "scope": "/",
     "start_url": "https://cbse-admit-id-finder.netlify.app/",
     "description": "Find anyone's CBSE admit card ID for free",
-    "orientation": "any",
+    "orientation": "portrait",
     "icons": [
         {
             "src": "https://cbse-admit-id-finder.netlify.app/logo.png",
