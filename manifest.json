@@ -1,0 +1,17 @@
+{
+    "name": "Admit ID Finder",
+    "short_name": "ID Finder",
+    "theme_color": "#00b8ff",
+    "background_color": "#fff",
+    "display": "standalone",
+    "scope": "/",
+    "start_url": "https://cbse-admit-id-finder.netlify.app/",
+    "description": "Find anyone's CBSE admit card ID for free",
+    "orientation": "any",
+    "icons": [
+        {
+            "src": "https://cbse-admit-id-finder.netlify.app/logo.png",
+            "sizes": "1024x1024"
+        }
+    ]
+}
