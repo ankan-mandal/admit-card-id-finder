@@ -6,7 +6,7 @@ var preLoad = function(){
   console.log("Installing web app");
   return caches.open("index").then(function(cache) {
     console.log("caching index and important routes");
-    return cache.addAll(["/", "/index.html"]);
+    return cache.addAll(["/", "/index.html", "/styles.css", "/style.css"]);
   });
 };
 
