@@ -53,7 +53,9 @@ cbse, cbse admit card id finder, cbse admit card id, admit card id generator, cb
             <p class="pp">See Below...</p>
         </form>
 
-        <div class="output">
+        
+		
+		<p id="demo"></p><div class="output">
         Admit Card ID : 
             <input type="text" value="" id="myInput" >
             <div class="tooltip">
@@ -62,8 +64,7 @@ cbse, cbse admit card id finder, cbse admit card id, admit card id generator, cb
             COPY
             </button>
             </div>
-		
-		<p id="demo"></p><p>Clubhouse invite: <a href="https://viscoly.com/" id="button">Click Here</a></p><p><br /></p>
+	    <p><br /></p>
 <script>
 // Set the date we're counting down to
 var countDownDate = new Date().setSeconds(new Date().getSeconds() + 50);
@@ -81,7 +82,7 @@ var x = setInterval(function() {
   var seconds = Math.floor((distance % (1000 * 60)) / 1000);
     
   // Output the result in an element with id="demo"
-  document.getElementById("demo").innerHTML = "<br/>Please wait for the Clubhouse invite code: <b>" + seconds +"</b> seconds...";
+  document.getElementById("demo").innerHTML = "<br/>Please wait Generating ID <b>" + seconds +"</b> seconds...";
     
   // If the count down is over, write some text and show button to download
   if (distance < 0) {
