@@ -44,7 +44,7 @@ html, body{
     display: block;
     width: 94%;
     outline: none;
-    padding: 10px 3%;
+    padding: 14px 3%;
     margin-top: 31px;
     border-radius: 8px;
     font-size: 15px;
@@ -53,7 +53,7 @@ html, body{
 }
 #btn{
     width:100%;
-    padding: 10px 3%;
+    padding: 15px 3%;
     outline: none;
     margin-top: 31px;
     border-radius: 8px;
