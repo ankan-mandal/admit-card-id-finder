@@ -10,6 +10,8 @@ function addData(myname, mname, roll, school, center){
     document.querySelector('.pp').style.display = 'block';
     document.querySelector('.output').style.display = 'block';
     document.getElementById("myInput").value = id.toUpperCase();
+
+    
 }
 
 document.getElementById("btn").addEventListener("click", function(event){
