@@ -1,7 +1,7 @@
 {
     "name": "Admit ID Finder",
     "short_name": "ID Finder",
-    "theme_color": "#00b8ff",
+    "theme_color": "#d341ff",
     "background_color": "#fff",
     "display": "standalone",
     "scope": "/",
@@ -10,7 +10,7 @@
     "orientation": "portrait",
     "icons": [
         {
-            "src": "https://cbse-admit-id-finder.netlify.app/logo.png",
+            "src": "https://cbse-admit-id-finder.netlify.app/new-logo-cbse-admit-card-id-finder-2021.png",
             "sizes": "1024x1024"
         }
     ]
