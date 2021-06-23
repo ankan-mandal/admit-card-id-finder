@@ -1,0 +1,5 @@
+# Redirect default Netlify subdomain to primary domain
+
+https://cbse-admit-id-finder.netlify.app/* https://cbse-admit-card-id-finder.redsider.com/:splat 301!
+
+# Example: https://budi.netlify.app/* https://budidev.com/:splat 301!
